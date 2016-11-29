@@ -1,15 +1,7 @@
-/* Inserta tu codigo aqui */
 /*nav*/
-header {
+header{
 	background-color: black;
 }
-.fondoNa {
-	background-color: black;
-	
-	
-}
-
-	
 
 a{
 	text-decoration: none;
@@ -25,6 +17,15 @@ h3 {
 }
 .texOran{
 	color: #FFBF00;
+}
+.textWhite{
+	color: #FFFFFF;
+}
+.textGray{
+	color: #757272;
+}
+a.textWhite:hover{
+	text-decoration: line-through;
 }
 p {
 	color: white;
@@ -54,17 +55,26 @@ p {
 	margin-top: -5px;
 	padding: 2%;
 }
-
-/*aside*/
+.backRed{
+	background-color: red;
+}
+.imglogo{
+	width: 40%;
+	height: auto;
+}
+/*col derecha*/
 
 input {
 	background-color: #424242;
-	width: 90%;
+	width: 100%;
 	border: none;
+	padding: 2%;
 }
-.fonImgAs {
-	padding: 0%;
-
+form{
+	padding: 5%;
+	background-color: black;
+	width: 100%;
+	margin-bottom: 5%;
 }
 
 i {
@@ -76,19 +86,21 @@ i {
 	display: inline-block;
 	
 }
+
 /*footer*/
 footer {
 	margin-top: 5%;
 	background-color: black;
 	padding: 5%;
 }
-/* Responsive */
 
-@media screen and (max-width : 920px) {
-
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #007da7;
 }
-
-@media screen and (max-width: 600px) {
-	 
-   
+.navbar{
+	background-color: black !important;
 }
